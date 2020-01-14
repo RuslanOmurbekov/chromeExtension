@@ -1,6 +1,22 @@
 {
     "name": "Truckstop Health Check",
+    "options_page": "options.html",
     "version": "1.0",
     "description": "To check environment status",
+    "permissions": ["activeTab","declarativeContent","storage"],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+      "page_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": "images/truckstoplogo.png"
+           
+          }
+      },
+      "icons":{
+        "16": "images/truckstoplogo.png"
+      },
     "manifest_version": 2
 }
