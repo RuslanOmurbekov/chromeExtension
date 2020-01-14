@@ -1,0 +1,6 @@
+{
+    "name": "Truckstop Health Check",
+    "version": "1.0",
+    "description": "To check environment status",
+    "manifest_version": 2
+}
