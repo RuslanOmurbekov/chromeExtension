@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style license that can be
 // found in the LICENSE file.
 
-'use strict';
+/*'use strict';
 
 let changeColor = document.getElementById('changeColor');
 chrome.storage.sync.get('color', function(data) {
@@ -16,4 +16,5 @@ chrome.storage.sync.get('color', function(data) {
           {code: 'document.body.style.backgroundColor = "' + color + '";'});
     });
   };
-});
+});*/
+
