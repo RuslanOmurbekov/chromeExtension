@@ -4,10 +4,15 @@
     "version": "1.0",
     "description": "To check environment status",
     "permissions": ["activeTab","declarativeContent","storage"],
+    "content_scripts": [{
+      "js": [ "popup.js"],
+      "matches": ["<all_urls>"]
+    }],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
       },
+      
       "page_action": {
         "default_popup": "popup.html",
         "default_icon": {
